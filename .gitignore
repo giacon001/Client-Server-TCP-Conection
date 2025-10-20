@@ -1,0 +1,32 @@
+# Executáveis compilados
+server
+client
+
+# Arquivos de log
+*.log
+
+# Arquivos objeto
+*.o
+*.a
+*.so
+
+# Arquivos de debug
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Arquivos temporários
+*~
+*.swp
+*.swo
+.DS_Store
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Core dumps
+core
+core.*
