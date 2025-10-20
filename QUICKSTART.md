@@ -8,7 +8,6 @@
 
 ### Passo 1: Compilar
 ```bash
-cd /home/prime-02/ProgramasPessoais/Client-Server-TCP-Conection
 make
 ```
 
@@ -41,24 +40,14 @@ EXIT
 
 ---
 
-## 🎬 Demonstração Automática
-
-Execute o script de demo:
-```bash
-./demo.sh
-```
-
----
-
 ## 📖 Documentação
 
 | Arquivo | Descrição |
 |---------|-----------|
 | `README.md` | 📘 Documentação completa |
-| `RESUMO_EXECUTIVO.md` | 📊 Visão geral do projeto |
 | `RELATORIO_TECNICO.md` | 🔬 Análise técnica detalhada |
-| `GUIA_TESTES.md` | 🧪 25 casos de teste |
-| `EXEMPLOS.md` | 💡 Exemplos práticos |
+| `GUIA_TESTES.md` | 🧪 24 casos de teste |
+| `ESTRUTURA_VISUAL.md` | 🎨 Estrutura visual do projeto |
 
 ---
 
@@ -95,7 +84,7 @@ Tudo funcionando? Você deve ver:
 
 1. Leia o `README.md` para detalhes completos
 2. Execute os testes do `GUIA_TESTES.md`
-3. Experimente os exemplos do `EXEMPLOS.md`
+3. Consulte o `RELATORIO_TECNICO.md` para análise detalhada
 4. Analise o código fonte comentado
 
 ---

@@ -233,12 +233,16 @@ make cleanall
 
 ```
 Client-Server-TCP-Conection/
-├── server.c          # Código fonte do servidor
-├── client.c          # Código fonte do cliente
-├── Makefile          # Script de compilação
-├── README.md         # Documentação
-├── .gitignore        # Arquivos ignorados pelo git
-└── server.log        # Log do servidor (gerado em tempo de execução)
+├── server.c               # Código fonte do servidor
+├── client.c               # Código fonte do cliente
+├── Makefile               # Script de compilação
+├── README.md              # Documentação principal
+├── QUICKSTART.md          # Guia de início rápido
+├── RELATORIO_TECNICO.md   # Análise técnica detalhada
+├── GUIA_TESTES.md         # Guia de testes
+├── ESTRUTURA_VISUAL.md    # Estrutura visual do projeto
+├── .gitignore             # Arquivos ignorados pelo git
+└── server.log             # Log do servidor (gerado em tempo de execução)
 ```
 
 ## 🔒 Segurança

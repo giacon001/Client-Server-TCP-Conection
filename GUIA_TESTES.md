@@ -478,26 +478,6 @@ Compilação bem-sucedida sem erros ou warnings.
 
 ---
 
-## 📋 Script de Demonstração
-
-### Teste 25: Executar Demo.sh
-
-**Comando:**
-```bash
-./demo.sh
-```
-
-**Resultado Esperado:**
-O script deve:
-- Iniciar o servidor
-- Executar testes automatizados
-- Exibir o log
-- Encerrar graciosamente
-
-**Status:** ⬜ Passou  ⬜ Falhou
-
----
-
 ## ✅ Resumo de Testes
 
 | Categoria | Testes | Passou | Falhou |
@@ -509,8 +489,7 @@ O script deve:
 | Rede | 4 | __ | __ |
 | Performance | 2 | __ | __ |
 | Compilação | 3 | __ | __ |
-| Demo | 1 | __ | __ |
-| **TOTAL** | **25** | **__** | **__** |
+| **TOTAL** | **24** | **__** | **__** |
 
 ---
 

@@ -13,16 +13,14 @@ Client-Server-TCP-Conection/
 │
 ├── 🛠️ Build & Scripts
 │   ├── Makefile                 🔨 Sistema de compilação (1.9 KB)
-│   ├── demo.sh                  🎬 Script de demonstração (2.9 KB)
 │   └── .gitignore              🚫 Config Git
 │
-├── 📚 Documentação (56+ KB)
+├── 📚 Documentação
 │   ├── README.md               📘 Documentação principal (9.0 KB)
 │   ├── QUICKSTART.md           🚀 Início rápido (1.4 KB)
-│   ├── RESUMO_EXECUTIVO.md     📊 Resumo do projeto (11 KB)
 │   ├── RELATORIO_TECNICO.md    🔬 Análise técnica (14 KB)
 │   ├── GUIA_TESTES.md          🧪 Guia de testes (9.0 KB)
-│   └── EXEMPLOS.md             💡 Exemplos práticos (13 KB)
+│   └── ESTRUTURA_VISUAL.md     🎨 Estrutura visual
 │
 └── 📝 Logs (Gerado em runtime)
     └── server.log              📋 Log do servidor (dinâmico)
@@ -53,11 +51,10 @@ Client-Server-TCP-Conection/
 │ README.md           │  ~270  │  9.0 KB  │   ~5     │
 │ RELATORIO_TECNICO   │  ~500  │  14 KB   │  ~10     │
 │ GUIA_TESTES.md      │  ~400  │  9.0 KB  │   ~8     │
-│ EXEMPLOS.md         │  ~500  │  13 KB   │  ~10     │
-│ RESUMO_EXECUTIVO    │  ~350  │  11 KB   │   ~8     │
 │ QUICKSTART.md       │   ~60  │  1.4 KB  │   ~1     │
+│ ESTRUTURA_VISUAL    │  ~300  │  8.0 KB  │   ~6     │
 ├─────────────────────┼────────┼──────────┼──────────┤
-│ TOTAL (Docs)        │ ~2080  │  57 KB   │  ~42     │
+│ TOTAL (Docs)        │ ~1530  │  45 KB   │  ~30     │
 └─────────────────────┴────────┴──────────┴──────────┘
 ```
 
@@ -66,13 +63,12 @@ Client-Server-TCP-Conection/
 ╔═══════════════════════════════════════════════════╗
 ║           RESUMO DO PROJETO                       ║
 ╠═══════════════════════════════════════════════════╣
-║ Total de Arquivos:          13 arquivos           ║
-║ Total de Linhas:            3,169 linhas          ║
+║ Total de Arquivos:          10 arquivos           ║
+║ Total de Linhas:            ~2,250 linhas         ║
 ║ Total de Código:            ~720 linhas C         ║
-║ Total de Documentação:      ~2,080 linhas MD      ║
-║ Tamanho Total:              ~75 KB                ║
-║ Executáveis:                ~39 KB                ║
-║ Documentação Equivalente:   ~42 páginas A4        ║
+║ Total de Documentação:      ~1,530 linhas MD      ║
+║ Tamanho Total:              ~63 KB                ║
+║ Documentação Equivalente:   ~30 páginas A4        ║
 ╚═══════════════════════════════════════════════════╝
 ```
 
@@ -168,11 +164,9 @@ TOTAL:                       █████████████████
 ┌─────────────────────────────────────────────────────┐
 │                   MATERIAL DIDÁTICO                  │
 ├─────────────────────────────────────────────────────┤
-│ 📘 Documentação Teórica:     6 documentos           │
+│ 📘 Documentação Teórica:     5 documentos           │
 │ 💻 Código Fonte Comentado:   2 arquivos (650 lin.)  │
 │ 🧪 Casos de Teste:           25 testes              │
-│ 💡 Exemplos Práticos:        24+ exemplos           │
-│ 🎬 Scripts Demo:             2 scripts              │
 │ 📊 Diagramas:                5+ diagramas           │
 │ 🔍 Análises:                 Cobertura completa     │
 └─────────────────────────────────────────────────────┘
@@ -234,22 +228,15 @@ make
 🔵 CÓDIGO-FONTE (2 arquivos)
    └─ server.c, client.c
 
-🟢 EXECUTÁVEIS (2 arquivos)
-   └─ server, client
-
-🟡 BUILD (2 arquivos)
+ BUILD (2 arquivos)
    └─ Makefile, .gitignore
 
-🟣 SCRIPTS (1 arquivo)
-   └─ demo.sh
-
-🔴 DOCUMENTAÇÃO (6 arquivos)
+ DOCUMENTAÇÃO (5 arquivos)
    └─ README.md
    └─ QUICKSTART.md
-   └─ RESUMO_EXECUTIVO.md
    └─ RELATORIO_TECNICO.md
    └─ GUIA_TESTES.md
-   └─ EXEMPLOS.md
+   └─ ESTRUTURA_VISUAL.md
 
 🟠 LOGS (1 arquivo, runtime)
    └─ server.log
@@ -282,5 +269,5 @@ make
 
 **Data:** 20 de outubro de 2025  
 **Versão:** 1.0 FINAL  
-**Linhas Totais:** 3,169  
-**Arquivos:** 13
+**Linhas Totais:** ~2,250  
+**Arquivos:** 10
